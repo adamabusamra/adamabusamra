@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#home-bg{
+    background-image: url("../images/background.png");
+    background-size: contain;
+}
+
+/* nav style*/
+nav{
+    height: 75px;
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: #1d1b24;
+
+    }
+#nav-logo{
+    margin-left: 20px;
+    display: inline;
+}
+#nav-logo img{
+    height: 100%;
+}
+/* /nav style*/
+
+/* button style */
+#nav-links{
+    display: inline;
+    float: right;
+    line-height: 75px;
+}
+
+.btn{
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+#nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.btn-info {
+    color: black;
+    background-color: #53f6c7;
+    border-color: black;
+    }
+
+.btn-info:hover {
+    color: black;
+    background-color: #0062ff;
+    border-color: black;
+}
+
+.btn-info:focus, .btn-info.focus {
+    color: black;
+    background-color: #0062ff;
+    border-color: black;
+}
+/* /button style */
+main{
+    margin-top: 75px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-container .main-article{
+    color: white;
+    margin: 8em 0 0 15em;
+    max-width: 40%;
+}
+.flex-container .main-article h2{
+    font-size: 75px;
+    font-weight: 700;
+}
+.main-article h2 span{
+    color: #53f6c7;
+}
+.flex-container .main-article p{
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-top: 1.5em;
+}
+.flex-container .main-article .scroll-down-message {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-top: 0.5em;
+}   
+.scroll-down-message span{
+    color: #53f6c7;
+}
+.flex-container .my-picture img{
+    margin: 2em 17em 0 0;
+}
+article{
+    margin-top: 1em;
+    color: white;
+}
+article .about-me-skills{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 13em;
+}
+article h1.about-title{
+    margin: 0 0 0 1.5em;
+    letter-spacing: -10px;
+    color: #2a2830;
+    font-family: 'open sans',sans-serif;
+    font-size: 170px;
+    line-height: 190px;
+    font-style: normal;
+    font-weight: 700;
+}
+article div{
+    width: 300px;
+    height: auto;
+    margin: -1em 0 0 7em;
+}
+article div h1{
+    color: #53f6c7;
+    
+}
+article .about-me-skills div img{
+    width: 300px;
+}
+article .technical-skills p{
+    color: #d8d5d5;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+}
+article div hr{
+    height: 0.5px;
+    background-color:#727272;
+    margin-bottom: 2em;
+}
+footer{
+    height: 80px;
+    background-color: #53f6c7;
+}
+footer .copy-right-info{
+    color: black;
+    line-height: 80px;
+    font-size: 1.2em;
+    
+} 
+#copy .footer-icons {
+    float: right;
+    margin: 0 5em 0 0;
+    padding-top: 10px;
+    max-height: 80px;
+}
+#copy .footer-icons a{
+    padding: 0 1em 0 0;
+    font-size: 22px;
+    line-height: 80px;
+    color: black;
+}
+#copy .copy-right-info {
+    text-align: left;
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+ 
+#copy .footer-icons a:hover{
+    color: blue;
+}

@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/background.png");
+}
+    
+}
+
+/* nav style*/
+nav{
+    height: 75px;
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: #1d1b24;
+
+    }
+#nav-logo{
+    margin-left: 20px;
+    display: inline;
+}
+#nav-logo img{
+    height: 100%;
+}
+/* /nav style*/
+
+/* button style */
+#nav-links{
+    display: inline;
+    float: right;
+    line-height: 75px;
+}
+
+.btn{
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+#nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.btn-info {
+    color: black;
+    background-color: #53f6c7;
+    border-color: black;
+    }
+
+.btn-info:hover {
+    color: black;
+    background-color: #0062ff;
+    border-color: black;
+}
+
+.btn-info:focus, .btn-info.focus {
+    color: black;
+    background-color: #0062ff;
+    border-color: black;
+}
+/* /button style */
+main{
+    margin-top: 75px;
+}
+
+  
+.wrapper{
+    margin: 200px 20% 0 20%;
+    width: 100%;
+    max-width: 900px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .wrapper .title h1{
+    color: #53f6c7;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .contact-form{
+    display: flex;
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields,
+  .msg{
+    width: 48%;
+  }
+  
+  .input-fields .input,
+  .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #53f6c7;
+    padding: 10px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  .msg textarea{
+    height: 212px;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+  .button {
+      text-align: center;
+      color:white;
+      text-transform: uppercase;
+      padding: 15px;
+  }
+  .button:hover {
+    background: #0aeeade7;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+footer{
+    height: 80px;
+    background-color: #53f6c7;
+}
+footer .copy-right-info{
+    color: black;
+    line-height: 80px;
+    font-size: 1.2em;
+    
+} 
+#copy .footer-icons {
+    float: right;
+    margin: 0 5em 0 0;
+    padding-top: 10px;
+    max-height: 80px;
+}
+#copy .footer-icons a{
+    padding: 0 1em 0 0;
+    font-size: 22px;
+    line-height: 80px;
+    color: black;
+}
+#copy .copy-right-info {
+    text-align: left;
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+ 
+#copy .footer-icons a:hover{
+    color: blue;
+}
+
+@media screen and (max-width: 600px){
+    .contact-form{
+      flex-direction: column;
+    }
+    .msg textarea{
+      height: 80px;
+    }
+    .input-fields,
+    .msg{
+      width: 100%;
+    }
+  }

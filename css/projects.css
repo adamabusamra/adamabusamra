@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#home-bg{
+    background-image: url("../images/background-h2.jpg");
+    background-size: contain;
+}
+
+/* nav style*/
+nav{
+    height: 75px;
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: #1d1b24;
+
+    }
+#nav-logo{
+    margin-left: 20px;
+    display: inline;
+}
+#nav-logo img{
+    height: 100%;
+}
+/* /nav style*/
+
+/* button style */
+#nav-links{
+    display: inline;
+    float: right;
+    line-height: 75px;
+}
+
+.btn{
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+#nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.btn-info {
+    color: black;
+    background-color: #53f6c7;
+    border-color: black;
+    }
+
+.btn-info:hover {
+    color: black;
+    background-color: #0062ff;
+    border-color: black;
+}
+
+.btn-info:focus, .btn-info.focus {
+    color: black;
+    background-color: #0062ff;
+    border-color: black;
+}
+
+/* /button style */
+main{
+    margin-top: 75px;
+}
+main div{
+   
+}
+main div img{
+    width: 100%;
+    align-items: center;
+    height: auto;
+}
+
+footer{
+    height: 80px;
+    background-color: #53f6c7;
+}
+footer .copy-right-info{
+    color: black;
+    line-height: 80px;
+    font-size: 1.2em;
+    
+} 
+#copy .footer-icons {
+    float: right;
+    margin: 0 5em 0 0;
+    padding-top: 10px;
+    max-height: 80px;
+}
+#copy .footer-icons a{
+    padding: 0 1em 0 0;
+    font-size: 22px;
+    line-height: 80px;
+    color: black;
+}
+#copy .copy-right-info {
+    text-align: left;
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+ 
+#copy .footer-icons a:hover{
+    color: blue;
+}
